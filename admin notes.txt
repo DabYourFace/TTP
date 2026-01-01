@@ -1,30 +1,88 @@
-TOKER TRAV’S PRINTS — SITE NOTES
+ADMIN NOTES — TOKER TRAV’S PRINTS
 
-This site is a front-end demo.
+SITE PURPOSE
+This website is a simple, professional landing site for custom 3D printing services.
+The goal is to establish credibility, show examples, explain pricing logic, and push users toward submitting a print request.
 
-PAGES
-- index.html     → Overview
-- pricing.html   → Pricing philosophy
-- about.html     → About the maker
-- product.html   → Example prints
-- request.html   → Quote request form (demo only)
+FILE STRUCTURE (DO NOT CHANGE)
+All files live in ONE folder for GitHub Pages compatibility.
 
-NOT LIVE YET
-- No payments
-- No email submissions
-- No file uploads
+index.html    → Landing / hero page
+product.html  → Services & examples
+pricing.html  → Pricing overview
+request.html  → Customer request form
+about.html    → About / credibility
+style.css     → ALL site styling
+main.js       → Optional JS (currently minimal)
 
-TO GO LIVE LATER
-- PayPal Smart Buttons
-- Email form backend (Netlify or Formspree)
-- Replace placeholder images with real prints
-- Add real testimonials
+Do not add subfolders unless all paths are updated.
 
-EDITING
-- Colors and layout live in css/style.css
-- Text content is directly in each HTML file
-- This site can be hosted on Netlify or GitHub Pages
+PAGE BACKGROUNDS
+Each page uses a body class to control its background image.
+Example:
+<body class="pricing-page">
 
-DO NOT EDIT
-- Folder structure
+If a page loads with no background:
+- Check the body class
+- Check the image URL
+- Hard refresh browser (Ctrl+F5)
+
+NAVIGATION
+- Logo always links to index.html
+- “Request a Print” is the main call-to-action
+- Keep navigation simple; no dropdowns needed
+
+DESIGN SYSTEM
+- Dark theme with green/purple accent highlights
+- Glass/frosted cards used across services, pricing, and info sections
+- Subtle hover effects only (no flashy animations)
+
+If cards lose their glass effect:
+- Make sure the glass card CSS is at the bottom of style.css
+
+PRICING STRATEGY (IMPORTANT)
+Pricing is intentionally flexible and not locked to exact numbers.
+Reason:
+- Custom work varies by material, size, print time, and complexity
+- Encourages customers to submit a request instead of price shopping
+- Prevents underpricing jobs
+
+If asked about pricing:
+“Pricing depends on material, size, and print time — submit a request for an accurate quote.”
+
+REQUEST PAGE (MOST IMPORTANT PAGE)
+This page drives conversions.
+Priority is:
+- Readability
+- Trust
+- Ease of contact
+
+Future upgrades (optional):
+- Email form hookup
+- File uploads
+- Payment deposits
+
+GITHUB PAGES CHECKLIST
+Before sharing site:
+- Repository is public
+- index.html is in root
+- GitHub Pages enabled on main branch
+- No console errors
+- CSS loads on all pages
+
+SAFE FUTURE CHANGES
+Safe:
+- Text content
+- Images
+- Accent colors
+- Adding example photos
+
+Be careful with:
 - File names
+- CSS class names
+- Body page classes
+
+BIG PICTURE
+This site is designed to look professional without being overbuilt.
+It should work quietly in the background while the business grows.
+Avoid unnecessary complexity.
