@@ -1,0 +1,30 @@
+TOKER TRAV’S PRINTS — SITE NOTES
+
+This site is a front-end demo.
+
+PAGES
+- index.html     → Overview
+- pricing.html   → Pricing philosophy
+- about.html     → About the maker
+- product.html   → Example prints
+- request.html   → Quote request form (demo only)
+
+NOT LIVE YET
+- No payments
+- No email submissions
+- No file uploads
+
+TO GO LIVE LATER
+- PayPal Smart Buttons
+- Email form backend (Netlify or Formspree)
+- Replace placeholder images with real prints
+- Add real testimonials
+
+EDITING
+- Colors and layout live in css/style.css
+- Text content is directly in each HTML file
+- This site can be hosted on Netlify or GitHub Pages
+
+DO NOT EDIT
+- Folder structure
+- File names
